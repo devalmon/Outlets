@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+//
+//@property (nonatomic, weak) IBOutlet UIView *testView;
+//@property (weak, nonatomic) IBOutlet UIView *testView1;
+//@property (weak, nonatomic) IBOutlet UIView *testView2;
+//@property (weak, nonatomic) IBOutlet UIView *testView3;
+//@property (weak, nonatomic) IBOutlet UIView *testView4;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *arrayViews;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
